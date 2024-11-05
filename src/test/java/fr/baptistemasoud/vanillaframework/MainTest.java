@@ -18,7 +18,6 @@ class MainTest {
         Main.main(new String[]{"fr.baptistemasoud.vanillaframework"});
 
         String allWrittenLines = output.toString();
-        System.out.println(allWrittenLines);
         assertTrue(allWrittenLines.contains("LightBulb: Bulb turned on..."));
         assertTrue(allWrittenLines.contains("LightBulb: Bulb turned off..."));
     }
